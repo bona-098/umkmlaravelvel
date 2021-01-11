@@ -16,6 +16,21 @@
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('input_tumkm') }}" :active="request()->routeIs('input_tumkm')">
+                        {{ __('daftar') }}
+                    </x-jet-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('indexpawb') }}" :active="request()->routeIs('indexpawb')">
+                        {{ __('daftar UMKM') }}
+                    </x-jet-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('indexpawb') }}" :active="request()->routeIs('indexpawb')">
+                        {{ __('UMKM') }}
+                    </x-jet-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->

@@ -1,14 +1,5 @@
-@extends('layout.master')
-@section('title', 'Si-UMKM')
-@section('content')
-<html>
-<head>
-    <meta>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
-    <meta>
-</head>
-<body>
+<x-app-layout>
+    <x-slot name="header">
     <td>
     <h1><p class="text-center">Silahkan Masukan Data UMKM anda Untuk diPromosikan</p></h1>
         <form action="{{route('pawb_store')}}"method="POST">
@@ -44,6 +35,15 @@
         </tr>
     </table> 
 	</div>
+    </x-slot>
+</x-app-layout>
+<!-- <html>
+<head>
+    <meta>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
+    <meta>
+</head>
+<body>
 </body>
-</html>
-@endsection
+</html> -->
