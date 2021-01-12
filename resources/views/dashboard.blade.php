@@ -21,7 +21,7 @@
         <!-- Carousel -->
         <!-- <<div class="d-inline-flex p-2 bd-highlight img-fluid mr-auto"> -->
 	<!-- <div class="col-md-12 col-md-offset-6"> -->
-  <div class="container">
+  <div class="container w-100 h-50">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -45,7 +45,7 @@
             <div class="container">
               <div class="carousel-caption">
                 <h1>Toko Tri Jaya</h1>
-                <p>Menjual oleh-oleh khas balikpapan | Alamat Gunung sari</p>
+                <p>Menjual Pakaian dan Bahan Pakaian | Alamat jl. Sudirman</p>
                 <p><a href="https://chat.whatsapp.com/Ivd8jk3WkzeIa4mynurLec"><button type="button" class="btn btn-lg btn-info" data-target="#exampleModal" 
                 data-toggle="modal" data-whatever="@getbootstrap">Hubungi Penjual</button></p>
               </div>
@@ -55,8 +55,8 @@
             <img class="third-slide d-block w-100" src="assets/slide3.jpeg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Toko Nolamodiste</h1>
-                <p>Menjual Pakaian dan Bahan Pakaian | Alamat jl. Sudirman</p>
+                <h1>Toko Tri Jaya</h1>
+                <p>Menjual oleh-oleh khas balikpapan | Alamat Gunung sari</p>
                 <p><a href="https://chat.whatsapp.com/Ivd8jk3WkzeIa4mynurLec"><button type="button" class="btn btn-lg btn-info" data-target="#exampleModal" 
                 data-toggle="modal" data-whatever="@getbootstrap">Hubungi Penjual</button></p>
               </div>

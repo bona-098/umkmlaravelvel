@@ -37,6 +37,14 @@
                     <input type="text" name="kontak" class="form-control" id="contact">
                 </div>
                 
+                <!-- <div class="card my-2">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                        <a href="{{route}}">
+                            {{ $pawb->titl}}
+                        </h5>
+                    </div>
+                </div> -->
                 <input button class="btn btn-primary" type="submit" value="Submit"></button>
                 <input button class="btn btn-secondary" type="reset" value="reset"></button>
             </div>

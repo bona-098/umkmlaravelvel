@@ -18,17 +18,17 @@
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('input_tumkm') }}" :active="request()->routeIs('input_tumkm')">
-                        {{ __('daftar') }}
+                        {{ __('Registrasi UMKM') }}
                     </x-jet-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('indexpawb') }}" :active="request()->routeIs('indexpawb')">
-                        {{ __('daftar UMKM') }}
+                        {{ __('Daftar UMKM') }}
                     </x-jet-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-jet-nav-link href="{{ route('indexpawb') }}" :active="request()->routeIs('indexpawb')">
-                        {{ __('UMKM') }}
+                        {{ __('Testimoni') }}
                     </x-jet-nav-link>
                 </div>
             </div>
