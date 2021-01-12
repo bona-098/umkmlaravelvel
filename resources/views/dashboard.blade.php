@@ -16,12 +16,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div class="container mx-auto">
+<!-- <div class="container mx-auto"> -->
 <main role="main">
         <!-- Carousel -->
-        <<div class="d-inline-flex p-2 bd-highlight">
-	<div class="container">
-	<div class="col-md-8 col-md-offset-4">
+        <!-- <<div class="d-inline-flex p-2 bd-highlight img-fluid mr-auto"> -->
+	<!-- <div class="col-md-12 col-md-offset-6"> -->
+  <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -30,7 +30,7 @@
         </ol>
         <div class="carousel-inner ">
           <div class="carousel-item active">
-            <img class="first-slide" src="assets/slide1.jpeg" alt="First slide">
+            <img class="first-slide d-block w-100" src="assets/slide1.jpeg" alt="First slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Toko Makmur Abadi</h1>
@@ -41,7 +41,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="assets/slide2.jpeg" alt="Second slide">
+            <img class="second-slide d-block w-100" src="assets/slide2.jpeg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Toko Tri Jaya</h1>
@@ -52,7 +52,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="assets/slide3.jpeg" alt="Third slide">
+            <img class="third-slide d-block w-100" src="assets/slide3.jpeg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Toko Nolamodiste</h1>
@@ -73,10 +73,10 @@
         </a>
       </div> <!-- Carousel -->
     
-    <figure class="figure">
-        <img src="{{url('/assets/bantuan.jpeg')}}" class="figure-img img-fluid rounded" alt="ini bantuan">
+    <!-- <figure class="figure">
+        <img src="{{url('/assets/bantuan.jpeg.jpeg')}}" class="figure-img img-fluid rounded" alt="ini bantuan">
         <figcaption class="figure-caption">A caption for the above image.</figcaption>
-    </figure>
+    </figure> -->
 	</div>
 	</div>
 </div>
