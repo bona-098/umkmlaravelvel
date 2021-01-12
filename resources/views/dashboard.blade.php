@@ -16,9 +16,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div class="container mx-auto px-4">
+<div class="container mx-auto">
 <main role="main">
         <!-- Carousel -->
+        <<div class="d-inline-flex p-2 bd-highlight">
 	<div class="container">
 	<div class="col-md-8 col-md-offset-4">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -32,10 +33,10 @@
             <img class="first-slide" src="assets/slide1.jpeg" alt="First slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <h1>Toko Makmur Abadi</h1>
+                <p>Menjual segala alat bangunan | Alamat Jl. Pembangunan No.51</p>
                 <p><a href="https://chat.whatsapp.com/Ivd8jk3WkzeIa4mynurLec"><button type="button" class="btn btn-lg btn-info" data-target="#exampleModal" data-toggle="modal" 
-				data-whatever="@getbootstrap">Mulai</button></a></p>
+				data-whatever="@getbootstrap">Hubungi Penjual</button></a></p>
               </div>
             </div>
           </div>
@@ -43,9 +44,10 @@
             <img class="second-slide" src="assets/slide2.jpeg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><button type="button" class="btn btn-lg btn-info" data-target="#exampleModal" data-toggle="modal" data-whatever="@getbootstrap">Mulai</button></p>
+                <h1>Toko Tri Jaya</h1>
+                <p>Menjual oleh-oleh khas balikpapan | Alamat Gunung sari</p>
+                <p><a href="https://chat.whatsapp.com/Ivd8jk3WkzeIa4mynurLec"><button type="button" class="btn btn-lg btn-info" data-target="#exampleModal" 
+                data-toggle="modal" data-whatever="@getbootstrap">Hubungi Penjual</button></p>
               </div>
             </div>
           </div>
@@ -53,9 +55,10 @@
             <img class="third-slide" src="assets/slide3.jpeg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><button type="button" class="btn btn-lg btn-info" data-target="#exampleModal" data-toggle="modal" data-whatever="@getbootstrap">Mulai</button></p>
+                <h1>Toko Nolamodiste</h1>
+                <p>Menjual Pakaian dan Bahan Pakaian | Alamat jl. Sudirman</p>
+                <p><a href="https://chat.whatsapp.com/Ivd8jk3WkzeIa4mynurLec"><button type="button" class="btn btn-lg btn-info" data-target="#exampleModal" 
+                data-toggle="modal" data-whatever="@getbootstrap">Hubungi Penjual</button></p>
               </div>
             </div>
           </div>

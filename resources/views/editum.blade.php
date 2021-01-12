@@ -15,33 +15,34 @@
     </td>
     @csrf
     <h1><p class="text-center">Silahkan Ubah data UMKM yang benar</p></h1>
-        <table>
-            <tr>
-            <td>Jenis</td>
-                <td>:</td>
-                <td><input type="text" value="{{$tuma->jenis}}" name="jenis"></td>
-            </tr>
-            <tr>
-                <td>Nama</td>
-                <td>:</td>
-                <td><input type="text" value="{{$tuma->nama}}" name="nama"></td>
-            </tr>
-            <tr>
-                <td>Alamat</td>
-                <td>:</td>
-                <td><textarea input value="{{$tuma->alamat}}" name="alamat" cols="30" rows="10"></textarea></td>
-            </tr>
-            <tr>
-                <td>Kontak</td>
-                <td>:</td>
-                <td><input type="text" value="{{$tuma->kontak}}" name="kontak"></td>
-            </tr>
-            <tr>
-                <td>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-6 text-right">
+                <div class="form-group">
+                    <label for="jenis">Jenis</label>
+                    <input type="text"  value="{{$tuma->jenis}}" name="jenis" class="form-control" aria-describedby="emailHelp">
+                </div>
+
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" value="{{$tuma->nama}}" name="nama" class="form-control" id="nama" aria-describedby="emailHelp">
+                </div>
+
+                <div class="form-group">
+                    <label for="alamat">Alamat</label>
+                    <textarea class="form-control" value="{{$tuma->alamat}}" name="alamat" id="alamat" rows="3"></textarea>
+                </div>
+            
+                <div class="form-group">
+                    <label for="contact">Kontak</label>
+                    <input type="text" value="{{$tuma->kontak}}" name="kontak" class="form-control" id="contact">
+                </div>
+            
                     <input button class="btn btn-primary" type="submit" value="Submit"></button>
-                    <input type="submit" value="Reset">
-                </td>
-            </tr>
+                    <input button class="btn btn-secondary" type="submit" value="Reset"></button>
+            </div>
+        </div>
         </table>
     </form> 
 	</div>
